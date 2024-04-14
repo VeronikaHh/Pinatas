@@ -15,6 +15,7 @@ def max_candies(pinatas: list[int]) -> int:
     return drop_list[n - 1]
 
 
-if name == "__main__":
-    pinatas = [3, 14, 5, 9, 2, 6, 5, 3, 5]
+if __name__ == "__main__":
+    num_input = input('Please enter list of pinatas(enter integer numbers separeted by ,): \n')
+    pinatas = [int(num) for num in num_input.split(",")]
     print(max_candies(pinatas))
