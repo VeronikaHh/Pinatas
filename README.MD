@@ -5,8 +5,6 @@ Then you can run main.py using command:
 python main.py
 ```
 
-# Complexity
-
 # Time spent on solution:
 - investigation ~ 30 min
 - implementation ~ 20 min
